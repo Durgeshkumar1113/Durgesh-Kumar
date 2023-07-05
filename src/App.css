@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #111111;
+  padding: 10px;
+}
+
+.navbar-links {
+  display: flex;
+  margin-left: 400px;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar-link:first-child {
+  margin-left: 0;
+}
+
+.navbar-link:last-child {
+  margin-right: 0;
+}
+
+.navbar-logo {
+  font-weight: bold;
+  color:greenyellow;
+ 
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center; 
+}
